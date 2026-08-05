@@ -128,7 +128,20 @@ Durante os experimentos, o modelo **Random Forest** apresentou o melhor equilíb
 
 O modelo **XGBoost** apresentou o melhor desempenho na métrica PR-AUC, demonstrando excelente capacidade para problemas altamente desbalanceados.
 
+## Resultados dos modelos
+
+| Modelo | Accuracy | Precision | Recall | F1-score | ROC-AUC | PR-AUC |
+|---|---:|---:|---:|---:|---:|---:|
+| Logistic Regression | 0.9770 | 0.0625 | **0.8784** | 0.1167 | 0.9702 | 0.6990 |
+| Random Forest | **0.9991** | **0.7329** | 0.7973 | **0.7638** | **0.9773** | 0.7764 |
+| XGBoost | 0.9987 | 0.5837 | 0.8243 | 0.6835 | 0.9673 | **0.8066** |
 ---
+No threshold padrão de `0.50`, o Random Forest apresentou o melhor equilíbrio geral.  
+No ajuste de threshold, o Random Forest atingiu seu maior F1-score em `0.70`:
+
+- Precision: 84,38%
+- Recall: 72,97%
+- F1-score: 78,26%
 
 # 📷 Exemplos de Resultados
 
