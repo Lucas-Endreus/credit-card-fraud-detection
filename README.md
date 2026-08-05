@@ -156,7 +156,7 @@ O modelo **XGBoost** apresentou o melhor desempenho na métrica PR-AUC, demonstr
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/credit-card-fraud-detection.git
+git clone https://github.com/Lucas-Endreus/credit-card-fraud-detection.git
 ```
 
 Entre na pasta:
