@@ -135,32 +135,21 @@ O modelo **XGBoost** apresentou o melhor desempenho na métrica PR-AUC, demonstr
 ## Comparação entre modelos
 
 > Adicione aqui a imagem:
+## Comparação entre modelos
 
-```text
-assets/model_comparison.png
-```
+![Comparação entre modelos](assets/model_comparison.png)
 
 ---
 
 ## Curva ROC
 
-> Adicione aqui:
-
-```text
-assets/roc_curve.png
-```
+![Curva ROC](assets/roc_curve.png)
 
 ---
 
 ## Curva Precision-Recall
 
-> Adicione aqui:
-
-```text
-assets/precision_recall_curve.png
-```
-
----
+![Curva Precision-Recall](assets/precision_recall_curve.png)
 
 # 🚀 Como executar
 
