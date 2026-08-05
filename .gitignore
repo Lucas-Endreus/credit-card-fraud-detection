@@ -1,0 +1,46 @@
+# Ambiente Virtual
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Modelos treinados
+models/*.pkl
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Cache
+.pytest_cache/
+
+# Distribuição
+build/
+dist/
+
+# Cobertura de testes
+htmlcov/
+.coverage
+# Dataset
+data/raw/*.csv
+data/processed/*.csv
+
+# Modelos treinados
+models/*.pkl
+
+# Ambiente virtual
+.venv/
